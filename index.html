@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="Ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر إلكتروني</title>
+    <link rel="stylesheet" href="stayle.css">
+</head>
+
+<body>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <header>
+        <div class="logo">
+            <h1>Shopping</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/Rami/Desktop/gpt/index.html#">Home</a></li>
+                <li><a href="#">product</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="https://web.whatsapp.com/">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="ad-banner">
+        <img src="img/download.jfif" alt="عرض خاص! خصم حتى 50%" />
+        <p>🔥 لا تفوت العرض! خصم حتى 50% على الإلكترونيات 🔥</p>
+        <a href="#products" class="ad-button">تسوق الآن</a>
+    </section>
+
+    <div id="cart-info">
+        <p>عدد العناصر في السلة: <span id="cart-count">0</span></p>
+        <button id="view-cart">عرض السلة</button>
+    </div>
+    <main>
+        <section class="products">
+            <div class="product" data-id="1" data-name="منتج 1" data-price="100">
+                <img src="img/11.jpeg">
+                <h3>iphone 12</h3>
+                <p>256 GB</p>
+                <span>540 $</span>
+                <button class="add-to-cart">shop</button>
+            </div>
+
+            <div class="product" data-id="2" data-name="منتج 2" data-price="150">
+                <img src="img/11.jpeg" alt="منتج 2">
+                <h3>macbook</h3>
+                <p> ssd 512 /8GB </p>
+                <span>150 $</span>
+                <button class="add-to-cart">shop</button>
+            </div>
+
+            <div class="product" data-id="3" data-name="منتج 3" data-price="200">
+                <img src="img/11.jpeg" alt="منتج 3">
+                <h3>شاشة ذكية</h3>
+                <p>شاشة ذكية 32 بوصلة</p>
+                <span>200 $</span>
+                <button class="add-to-cart">shop</button>
+            </div>
+            <div class="product" data-id="4" data-name="سماعات بلوتوث" data-price="120">
+                <img src="img/11.jpeg" alt="سماعات بلوتوث">
+                <h3>سماعات بلوتوث</h3>
+                <p>جودة صوت عالية وعزل ضوضاء.</p>
+                <span>120 $</span>
+                <button class="add-to-cart">shop</button>
+            </div>
+
+            <div class="product" data-id="5" data-name="ماوس لاسلكي" data-price="60">
+                <img src="img/11.jpeg" alt="ماوس لاسلكي">
+                <h3>ماوس لاسلكي</h3>
+                <p>راحة وتحكم مثالي.</p>
+                <span>60 $</span>
+                <button class="add-to-cart">shop</button>
+            </div>
+
+            <div class="product" data-id="6" data-name="لوحة مفاتيح ميكانيكية" data-price="180">
+                <img src="img/11.jpeg" alt="لوحة مفاتيح ميكانيكية">
+                <h3>لوحة مفاتيح ميكانيكية</h3>
+                <p>إضاءة RGB وتجربة كتابة ممتازة.</p>
+                <span>180 $</span>
+                <button class="add-to-cart">shop</button>
+            </div>
+
+            <div class="product" data-id="7" data-name="ساعة ذكية" data-price="250">
+                <img src="img/11.jpeg" alt="ساعة ذكية">
+                <h3>ساعة ذكية</h3>
+                <p>تتبع اللياقة، إشعارات، بطارية طويلة.</p>
+                <span>250 $</span>
+                <button class="add-to-cart">shop</button>
+            </div>
+
+            <div class="product" data-id="8" data-name="كاميرا ويب HD" data-price="90">
+                <img src="img/11.jpeg" alt="كاميرا ويب HD">
+                <h3>كاميرا ويب HD</h3>
+                <p>صورة واضحة، مثالية للاجتماعات.</p>
+                <span>90 $</span>
+                <button class="add-to-cart">shop</button>
+            </div>
+
+        </section>
+    </main>
+
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="close-cart">&times;</span>
+            <h2>السلة</h2>
+            <div id="cart-items">
+                <p>السلة فارغة</p>
+            </div>
+            <div id="cart-total">
+                <p>الإجمالي: <span id="total-price">0</span> $</p>
+            </div>
+            <button id="checkout">إتمام الشراء</button>
+            <button id="clear-cart">تفريغ السلة</button>
+
+        </div>
+    </div>
+
+    <section class="contact-section">
+        <h2>تواصل معنا</h2>
+        <p>📞 الهاتف: <a href="tel:+963992449543">+963992449543</a></p>
+        <p>📧 البريد الإلكتروني: <a href="mailto:rami.s3da@gmail.com">rami.s3da@gmail.com</a></p>
+
+        <div class="social-links">
+            <a href="https://wa.me/963992449543" target="_blank">واتساب</a> |
+        </div>
+
+
+        <footer>
+            <p>&copy; 2025 جميع الحقوق محفوظة.</p>
+        </footer>
+    </section>
+
+
+
+
+    <script src="js/stayle.js"></script>
+</body>
+
+</html>
